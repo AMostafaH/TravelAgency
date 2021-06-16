@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <!-- IE Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="Css/normalize.css" />
+    <link rel="stylesheet" href="Css/font-awesome.min.css" />
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    </head>
+    <body>
+        <!-- Start Settings  -->
+        <div class="settings">
+            <i class="fa fa-gear fa-lg gear"></i>
+            <div class="option-box">
+                <h4>Theme Color</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#f97619"></li>
+                    <li data-color="#bd081c"></li>
+                    <li data-color="#f305f7"></li>
+                    <li data-color="#efe707"></li>
+                    <li data-color="#1da1f2"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Background</h4>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="background-box">
+                <h4>Choose Your Favourite Background Image</h4>
+                <img src="Images/background/cam01.jpg" alt="Image One" data-image="cam01.jpg">
+                <img src="Images/background/cam02.jpg" alt="Image Two" data-image="cam02.jpg">
+                <img src="Images/background/cam03.jpg" alt="Image Three" data-image="cam03.jpg">
+                <img src="Images/background/cam04.jpg" alt="Image Four" data-image="cam04.jpg">
+                <img src="Images/background/cam05.jpg" alt="Image Five" data-image="cam05.jpg">
+            </div>
+            <div style="height: 10px;"></div>
+            <div class="option-box">
+                <h4>Show / Hide Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="block">Yes</span>
+                    <span class="no" data-display="none">No</span>
+                </div>
+            </div>
+            <button class="reset">Reset To Default</button>
+        </div>
+        <!-- End Settings -->
+        <!-- Start Bullets -->
+        <ul class="nav-bullets">
+            <li class="bullet" data-section=".about-us">
+                <span>About</span>
+            </li>
+            <li class="bullet" data-section=".our-skills">
+                <span>Skills</span>
+            </li>
+            <li class="bullet" data-section=".gallery">
+                <span>Gallery</span>
+            </li>
+            <li class="bullet" data-section=".timeline">
+                <span>Timeline</span>
+            </li>
+            <li class="bullet" data-section=".our-services">
+                <span>Services</span>
+            </li>
+            <li class="bullet" data-section=".testim">
+                <span>Testimonials</span>
+            </li>
+            <li class="bullet" data-section=".contact-us">
+                <span>Contact Us</span>
+            </li>
+        </ul>
+        <!-- End Bullets -->
+        <!-- Start Global Wrapper  -->
+        <div class="global-wrapper">
+            <!--Start Inner Wrapper  -->
+            <div class="inner-wrapper">
+                <!-- Start Landing Page -->
+                <div class="landing-page" id="test">
+                    <div class="over-lay"></div>
+                    <div class="container">
+                        <div class="nav-bar">
+                            <div class="logo">Travel Agency</div>
+                            <div class="links-container">
+                                <ul class="links">
+                                    <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                                    <li><a href="#" data-section=".our-skills">Skills</a></li>
+                                    <li><a href="#" data-section=".gallery">Gallery</a></li>
+                                    <li><a href="#" data-section=".timeline">Timeline</a></li>
+                                    <li><a href="#" data-section=".our-services">Services</a></li>
+                                    <li><a href="#" data-section=".testim">Testimonials</a></li>
+                                    <li><a href="#" data-section=".contact-us">Contact Us</a></li>
+                                </ul>
+                                <button class="toggle-menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <h2>We Are <span>Creative</span>  Agency</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio impedit maiores ratione, nemo eum possimus vero consequatur culpa</p>
+                    </div>
+                </div>
+                <!-- End Landing Page -->
+                <!-- Start About US -->
+                <div class="container">
+                    <div class="about-us">
+                        <div class="info">
+                            <h2>About Us</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id eligendi rerum sed. Repellendus commodi quos, totam omnis, et magni voluptatibus rem veniam perferendis, debitis adipisci sunt recusandae aliquid tempora quas debitis adipisci sunt recusandae .</p>
+                        </div>
+                        <div class="image">
+                            <img src="Images/ima.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- End About US -->
+                <!-- Start Our Skills -->
+                <div class="our-skills">
+                    <div class="container">
+                        <h2>Our Skills</h2>
+                        <div class="skill-box">
+                            <div class="skill-name">Videography</div>
+                            <div class="skill-progress">
+                                <span data-progress="80%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">Photography</div>
+                            <div class="skill-progress">
+                                <span data-progress="70%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">Great Accommodation</div>
+                            <div class="skill-progress">
+                                <span data-progress="85%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">Reasonable Prices</div>
+                            <div class="skill-progress">
+                                <span data-progress="65%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-name">Coordination</div>
+                            <div class="skill-progress">
+                                <span data-progress="75%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Our Skills -->
+                <!-- Start Our Gallery-->
+                <div class="gallery">
+                    <div class="container">
+                        <h2>Our Gallery</h2>
+                        <div class="image-box">
+                            <img src="Images/gallery/01.jpg" alt="Image One">
+                            <img src="Images/gallery/02.jpg" alt="Image Two">
+                            <img src="Images/gallery/03.jpg" alt="Image Three">
+                            <img src="Images/gallery/04.jpg" alt="Image Four">
+                            <img src="Images/gallery/05.jpg" alt="Image Five">
+                            <img src="Images/gallery/06.jpg" alt="Image Six">
+                            <img src="Images/gallery/07.jpg" alt="Image Seven">
+                            <img src="Images/gallery/08.jpg" alt="Image Eight">
+                            <img src="Images/gallery/09.jpg" alt="Image Nine">
+                            <img src="Images/gallery/10.jpg" alt="Image Ten">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Our Gallery-->
+                <!-- Start Timeline-->
+                <div class="timeline">
+                    <div class="container">
+                        <div class="timeline-content">
+                            <div class="year">2021</div>
+                            <div class="left">
+                                <div class="content">
+                                    <h3>Testing</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi reiciendis fugit obcaecati, ex, accusantium quidem pariatur reprehenderit odit eveniet odio perspiciatis eius assumenda vel similique! Possimus mollitia autem delectus aliquid.</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="right">
+                                <div class="content">
+                                    <h3>Testing</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi reiciendis fugit obcaecati, ex, accusantium quidem pariatur reprehenderit odit eveniet odio perspiciatis eius assumenda vel similique! Possimus mollitia autem delectus aliquid.</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="year">2020</div>
+                            <div class="left">
+                                <div class="content">
+                                    <h3>Testing</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi reiciendis fugit obcaecati, ex, accusantium quidem pariatur reprehenderit odit eveniet odio perspiciatis eius assumenda vel similique! Possimus mollitia autem delectus aliquid.</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="right">
+                                <div class="content">
+                                    <h3>Testing</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi reiciendis fugit obcaecati, ex, accusantium quidem pariatur reprehenderit odit eveniet odio perspiciatis eius assumenda vel similique! Possimus mollitia autem delectus aliquid.</p>
+                                </div>
+                            </div>
+                    
+                             <div class="clearfix"></div>
+                            <div class="year">2019</div>
+                            <div class="left">
+                                <div class="content">
+                                    <h3>Testing</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi reiciendis fugit obcaecati, ex, accusantium quidem pariatur reprehenderit odit eveniet odio perspiciatis eius assumenda vel similique! Possimus mollitia autem delectus aliquid.</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="right">
+                                <div class="content">
+                                    <h3>Testing</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi reiciendis fugit obcaecati, ex, accusantium quidem pariatur reprehenderit odit eveniet odio perspiciatis eius assumenda vel similique! Possimus mollitia autem delectus aliquid.</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Timeline-->
+                <!-- Star Our Services-->
+                <div class="our-services">
+                    <div class="container">
+                        <h2>Our Services</h2>
+                        <div class="service-box">
+                            <img src="Images/services/diving.jpg" alt="">
+                            <h3>Diving</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi doloremque dolore molestiae atque nam dolorum .</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="Images/services/skiing.jpg" alt="">
+                            <h3>Skiing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi doloremque dolore molestiae atque nam dolorum .</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="Images/services/mountain bike.jpg" alt="">
+                            <h3>Mountain Bike</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi doloremque dolore molestiae atque nam dolorum .</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="Images/services/water craft.jpg" alt="">
+                            <h3>Water Craft</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi doloremque dolore molestiae atque nam dolorum .</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="Images/services/hiking.jpg" alt="">
+                            <h3>Hiking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi doloremque dolore molestiae atque nam dolorum .</p>
+                        </div>
+                        <div class="service-box">
+                            <img src="Images/services/fishing.jpg" alt="">
+                            <h3>Fishing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi doloremque dolore molestiae atque nam dolorum .</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Our Services-->
+                <!-- Start Testimonials-->
+                <div class="testim">
+                    <div class="container">
+                        <h2>What Do They Say About US ?</h2>
+                        <div class="testim-box">
+                            <p>These guys are incredible ! Their Travelling Agency awesome!
+                                Very good service ! Highly recommended !
+                            </p>
+                            <div class="info">
+                                <img src="Images/client.png" alt="">
+                                <h4>Harry Winson</h4>
+                                <p>CEO At Company</p>
+                            </div>
+                        </div>
+                        <div class="testim-box">
+                            <p>These guys are incredible ! Their Travelling Agency awesome!
+                                Very good service ! Highly recommended !
+                            </p>
+                            <div class="info">
+                                <img src="Images/client.png" alt="">
+                                <h4>Harry Winson</h4>
+                                <p>CEO At Company</p>
+                            </div>
+                        </div>
+                        <div class="testim-box">
+                            <p>These guys are incredible ! Their Travelling Agency awesome!
+                                Very good service ! Highly recommended !
+                            </p>
+                            <div class="info">
+                                <img src="Images/client.png" alt="">
+                                <h4>Harry Winson</h4>
+                                <p>CEO At Company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- End Testimonials-->
+                <!-- Start Contact Us -->
+                <div class="contact-us">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h2>Contact Us</h2>
+                        <form>
+                            <div class="left">
+                                <input type="text" name="user name" placeholder="Your Name">
+                                <input type="text" name="phone" placeholder="Your Phone">
+                                <input type="email" name="email" placeholder="Your Email">
+                                <input type="text" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="right">
+                                <textarea placeholder="Message"></textarea>
+                                <button><i class="fa fa-send-o"></i> Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- End Contact Us -->
+                <!-- Start Footer-->
+                <div class="footer">
+                    <div class="container">
+                        <div class="right">
+                            <a href="http://www.facebook.com/AMostafaH1"><i class="fa fa-facebook fa-2x"></i></a>
+                            <a href="http://www.twitter.com/AMostafaH1"><i class="fa fa-twitter fa-2x"></i></a>
+                            <a href="http://www.github.com/AMostafaH"><i class="fa fa-github fa-2x"></i></a>
+                            <a href="http://www.codepen.io/AMostafaH"><i class="fa fa-codepen fa-2x"></i></a>
+                        </div>
+                        <div class="left">
+                            <span>Made With <i class="fa fa-heart fa-lg"></i> By Ahmed Mostafa &copy; 2020</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Footer-->
+                <span class="back-top"><i class="fa fa-chevron-up fa-lg"></i></span>
+            </div>
+            <!--End Inner Wrapper  -->
+        </div>
+        <!-- End Global Wrapper  -->
+        
+        <script src="JavaScript/custom.js"></script>
+    </body>
+</html>
+
+
+
